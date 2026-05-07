@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elit Matrasi</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:#f8f5ef;
+      color:#222;
+    }
+
+    .hero{
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:60px;
+      gap:60px;
+      flex-wrap:wrap;
+    }
+
+    .hero-text{
+      max-width:500px;
+    }
+
+    .hero-text h1{
+      font-size:64px;
+      color:#b58a2f;
+      margin-bottom:20px;
+    }
+
+    .hero-text h2{
+      font-size:48px;
+      line-height:1.2;
+      margin-bottom:20px;
+    }
+
+    .gold{
+      color:#b58a2f;
+    }
+
+    .hero-text p{
+      font-size:20px;
+      line-height:1.6;
+      margin-bottom:30px;
+    }
+
+    .btns{
+      display:flex;
+      gap:20px;
+      flex-wrap:wrap;
+    }
+
+    .btn{
+      padding:16px 32px;
+      border:none;
+      border-radius:14px;
+      font-size:18px;
+      cursor:pointer;
+      transition:0.3s;
+      text-decoration:none;
+    }
+
+    .gold-btn{
+      background:#b58a2f;
+      color:white;
+    }
+
+    .gold-btn:hover{
+      background:#96711f;
+    }
+
+    .outline-btn{
+      border:2px solid #b58a2f;
+      color:#b58a2f;
+      background:transparent;
+    }
+
+    .outline-btn:hover{
+      background:#b58a2f;
+      color:white;
+    }
+
+    .hero img{
+      width:500px;
+      max-width:100%;
+      border-radius:30px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    .features{
+      padding:80px 40px;
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:25px;
+    }
+
+    .feature{
+      background:white;
+      padding:30px;
+      border-radius:24px;
+      text-align:center;
+      box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    }
+
+    .feature h3{
+      margin-top:15px;
+      font-size:22px;
+    }
+
+    .products{
+      padding:80px 40px;
+      background:white;
+    }
+
+    .products-title{
+      text-align:center;
+      margin-bottom:50px;
+    }
+
+    .products-title h2{
+      font-size:48px;
+      color:#b58a2f;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:30px;
+    }
+
+    .card{
+      background:#faf7f2;
+      border-radius:30px;
+      overflow:hidden;
+      box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    }
+
+    .card img{
+      width:100%;
+      height:260px;
+      object-fit:cover;
+    }
+
+    .card-content{
+      padding:25px;
+    }
+
+    .card-content h3{
+      font-size:30px;
+      margin-bottom:15px;
+    }
+
+    .price{
+      color:#b58a2f;
+      font-size:32px;
+      font-weight:bold;
+      margin-top:20px;
+    }
+
+    .contact{
+      padding:100px 40px;
+      text-align:center;
+    }
+
+    .contact h2{
+      font-size:52px;
+      color:#b58a2f;
+      margin-bottom:20px;
+    }
+
+    .contact-box{
+      background:white;
+      max-width:700px;
+      margin:auto;
+      padding:40px;
+      border-radius:30px;
+      box-shadow:0 5px 20px rgba(0,0,0,0.1);
+      margin-top:40px;
+    }
+
+    .contact-box p{
+      font-size:24px;
+      margin:20px 0;
+    }
+
+    @media(max-width:768px){
+
+      .hero-text h1{
+        font-size:42px;
+      }
+
+      .hero-text h2{
+        font-size:34px;
+      }
+
+      .hero{
+        padding:30px;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+<section class="hero">
+
+  <div class="hero-text">
+    <h1>ELIT MATRASI</h1>
+
+    <h2>
+      Best Sleep.<br>
+      <span class="gold">Best Life.</span>
+    </h2>
+
+    <p>
+      ორთოპედიული მატრასები პირდაპირ მწარმოებლისგან.
+      პრემიუმ ხარისხი, კომფორტი და ინდივიდუალური ზომები.
+    </p>
+
+    <div class="btns">
+      <a href="#" class="btn gold-btn">შეკვეთა</a>
+      <a href="#" class="btn outline-btn">WhatsApp</a>
+    </div>
+  </div>
+
+  <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop">
+
+</section>
+
+<section class="features">
+
+  <div class="feature">
+    <h3>ორთოპედიული მხარდაჭერა</h3>
+  </div>
+
+  <div class="feature">
+    <h3>პრემიუმ მასალები</h3>
+  </div>
+
+  <div class="feature">
+    <h3>ინდივიდუალური ზომები</h3>
+  </div>
+
+  <div class="feature">
+    <h3>მიწოდება მთელ საქართველოში</h3>
+  </div>
+
+</section>
+
+<section class="products">
+
+  <div class="products-title">
+    <h2>პოპულარული მოდელები</h2>
+  </div>
+
+  <div class="cards">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop">
+
+      <div class="card-content">
+        <h3>Premium Comfort</h3>
+
+        <p>
+          მაღალი ხარისხის ორთოპედიული მატრასი ყოველდღიური კომფორტისთვის.
+        </p>
+
+        <div class="price">250₾+</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop">
+
+      <div class="card-content">
+        <h3>Luxury Sleep</h3>
+
+        <p>
+          პრემიუმ კლასის მატრასი განსაკუთრებული კომფორტისთვის.
+        </p>
+
+        <div class="price">350₾+</div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="contact">
+
+  <h2>დაგვიკავშირდით</h2>
+
+  <div class="contact-box">
+    <p>📞 579 24 27 35</p>
+    <p>📧 elitmatrasi@gmail.com</p>
+    <p>📍 თბილისი, საქართველო</p>
+  </div>
+
+</section>
+
+</body>
+</html>
